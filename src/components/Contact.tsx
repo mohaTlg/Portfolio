@@ -57,9 +57,9 @@ export default function Contact() {
         <div className="mt-16 pt-8 border-t border-slate-300 text-center text-slate-600">
           <p className="font-semibold mb-4">Suivez-moi sur les réseaux sociaux</p>
           <div className="flex justify-center gap-6 flex-wrap">
-            <a href="#" className="text-cyan-600 hover:text-cyan-700 font-semibold transition-colors">Twitter</a>
-            <a href="#" className="text-cyan-600 hover:text-cyan-700 font-semibold transition-colors">GitHub</a>
-            <a href="#" className="text-cyan-600 hover:text-cyan-700 font-semibold transition-colors">LinkedIn</a>
+            <a href="https://www.youtube.com/@mohaTlg" className="text-cyan-600 hover:text-cyan-700 font-semibold transition-colors">YouTube</a>
+            <a href="https://github.com/mohaTlg" className="text-cyan-600 hover:text-cyan-700 font-semibold transition-colors">GitHub</a>
+            <a href="https://www.linkedin.com/in/mohatlg" className="text-cyan-600 hover:text-cyan-700 font-semibold transition-colors">LinkedIn</a>
           </div>
         </div>
       </div>
