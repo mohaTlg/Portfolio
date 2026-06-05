@@ -7,27 +7,24 @@ import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
-    <>
-      <Navbar />
-      <div className="min-h-screen bg-white dark:bg-black">
-        <main className="pt-16">
-        <section id="hero">
-          <Hero />
-        </section>
-        <section id="parcours">
-          <Experience />
-        </section>
-        <section id="skills">
-          <Skills />
-        </section>
-        <section id="projets">
-          <Projects />
-        </section>
-        <section id="contact">
-          <Contact />
-        </section>
-      </main>
+    <div className="min-h-screen bg-slate-50 text-slate-800 relative selection:bg-cyan-200 selection:text-cyan-900 overflow-x-hidden">
+      {/* Modern animated gradient background layer */}
+      <div className="fixed inset-0 z-0 pointer-events-none">
+        <div className="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] rounded-full bg-cyan-200/40 blur-[120px] mix-blend-multiply" />
+        <div className="absolute top-[20%] right-[-5%] w-[400px] h-[400px] rounded-full bg-blue-200/40 blur-[100px] mix-blend-multiply" />
+        <div className="absolute bottom-[-10%] left-[20%] w-[600px] h-[600px] rounded-full bg-indigo-200/30 blur-[120px] mix-blend-multiply" />
       </div>
-    </>
+      
+      <div className="relative z-10 flex flex-col items-center">
+        <Navbar />
+        <main className="w-full">
+          <Hero />
+          <Experience />
+          <Skills />
+          <Projects />
+          <Contact />
+        </main>
+      </div>
+    </div>
   );
 }
