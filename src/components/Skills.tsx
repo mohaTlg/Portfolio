@@ -85,26 +85,11 @@ export default function Skills() {
               </li>
               <li className="flex justify-between items-center text-slate-700">
                 <span className="font-medium">Anglais</span>
-                <span className="text-xs font-bold px-3 py-1 bg-blue-100/80 text-blue-700 rounded-full">Intermédiaire</span>
+                <span className="text-xs font-bold px-3 py-1 bg-blue-100/80 text-blue-700 rounded-full">Professionnel</span>
               </li>
             </ul>
           </div>
 
-          <div className="group relative bg-white/60 backdrop-blur-xl rounded-[2rem] p-8 border border-white/80 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgb(6,182,212,0.12)] transition-all duration-500 hover:-translate-y-1">
-            <h3 className="text-2xl font-bold text-slate-900 mb-6 group-hover:text-cyan-600 transition-colors">
-              Éducation
-            </h3>
-            <div className="space-y-5 text-slate-700">
-              <div>
-                <h4 className="font-bold text-cyan-600 text-lg">Master 2 - Génie Logiciel</h4>
-                <p className="text-slate-500 text-sm font-medium">ISIMA, UCA (2024-2026)</p>
-              </div>
-              <div>
-                <h4 className="font-bold text-cyan-600 text-lg">Licence Informatique</h4>
-                <p className="text-slate-500 text-sm font-medium">ISIMA, UCA (2023-2024)</p>
-              </div>
-            </div>
-          </div>
         </div>
 
       </div>

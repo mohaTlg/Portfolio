@@ -7,6 +7,13 @@ export default function Projects() {
       tags: ["Next.js", "React.js", "Firebase", "Tailwind CSS", "Sanity.io"],
       link: "https://cabinetibs.com/"
     },
+    {
+      id: 2,
+      title: "Gold Management App",
+      description: "Développement et maintenance d'une application de gestion complete pour l'entreprise XXOR336.",
+      tags: ["Next.js", "React.js", "Firebase", "Tailwind CSS", "Sanity.io"],
+      link: "https://tlg-gold.vercel.app/"
+    },
   ];
 
   return (
